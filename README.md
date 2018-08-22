@@ -1,7 +1,6 @@
 # Nova Laravel Update Card
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/nova-laravel-update-card.svg?style=flat-square)](https://packagist.org/packages/beyondcode/nova-laravel-update-card)
-[![Quality Score](https://img.shields.io/scrutinizer/g/beyondcode/nova-laravel-update-card.svg?style=flat-square)](https://scrutinizer-ci.com/g/beyondcode/nova-laravel-update-card)
 [![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/nova-laravel-update-card.svg?style=flat-square)](https://packagist.org/packages/beyondcode/nova-laravel-update-card)
 
 Check if you're running the latest Laravel version right from your Nova dashboard. 
