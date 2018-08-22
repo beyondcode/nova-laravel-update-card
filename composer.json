@@ -1,0 +1,55 @@
+{
+    "name": "beyondcode/nova-laravel-update-card",
+    "description": "A Laravel Nova card that shows you if you're running the latest Version of Laravel.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "repositories": [
+      {
+        "type": "path",
+        "url": "../nova"
+      }
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "marcel@beyondco.de",
+            "homepage": "https://beyondco.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "composer/semver": "^1.4",
+        "laravel/nova": "*",
+        "knplabs/packagist-api": "^1.5"
+    },
+    "require-dev": {
+      "orchestra/testbench": "^3.6",
+      "phpunit/phpunit": "7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beyondcode\\LaravelUpdateCard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Beyondcode\\LaravelUpdateCard\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beyondcode\\LaravelUpdateCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
